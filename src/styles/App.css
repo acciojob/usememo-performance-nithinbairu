@@ -1,1 +1,31 @@
+/* Dark & Light Mode */
+.light-mode {
+  background: #ffffff;
+  color: #000;
+  padding: 20px;
+  min-height: 100vh;
+}
 
+.dark-mode {
+  background: #121212;
+  color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Completed / Active Styles */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.active {
+  text-decoration: none;
+}
+
+/* Buttons */
+.buttons button {
+  margin: 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
